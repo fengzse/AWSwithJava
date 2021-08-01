@@ -5,8 +5,8 @@ import com.amazonaws.regions.Regions;
 
 public class commonConstants {
 
-    public static String accessKey = "AKIAYPA7IPZXBTZD56UL";
-    public static String secretKey = "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";
+    public static String accessKey = "****";
+    public static String secretKey = "****";
     public static Regions clientRegion = Regions.EU_NORTH_1;
     public static String bucketName = "mydrivestest";
     public static String bucketNameToBeCreated = "mys3test";
