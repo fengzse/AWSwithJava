@@ -18,6 +18,7 @@ public class downloadObject {
                     .withRegion(commonConstants.clientRegion)
                     .withCredentials(new AWSStaticCredentialsProvider(commonConstants.credentials))
                     .build();
+
             // here should be the file path in bucket
             String filePathDownload = "shuttle.mp4";
 

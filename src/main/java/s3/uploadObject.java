@@ -30,7 +30,6 @@ public class uploadObject {
             System.out.println("String has been created as a file into the bucket");
 
             // Upload a file as a new object with ContentType and title specified.
-
             PutObjectRequest request = new PutObjectRequest(commonConstants.bucketName, commonConstants.fileObjKeyName,
                     new File(commonConstants.uploadPath));  // Create a file object
             ObjectMetadata metadata = new ObjectMetadata();

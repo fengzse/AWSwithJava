@@ -5,8 +5,8 @@ import com.amazonaws.regions.Regions;
 
 public class commonConstants {
 
-    public static String accessKey = "****";
-    public static String secretKey = "****";
+    public static String accessKey = "add your IAM access key here";
+    public static String secretKey = "add your IAM secret key here";
     public static Regions clientRegion = Regions.EU_NORTH_1;
     public static String bucketName = "mydrivestest";
     public static String bucketNameToBeCreated = "mys3test";
@@ -30,12 +30,12 @@ public class commonConstants {
    public static AWSCredentials credentials = new AWSCredentials() {
         @Override
         public String getAWSAccessKeyId() {
-            return commonConstants.accessKey;
+            return accessKey;
         }
 
         @Override
         public String getAWSSecretKey() {
-            return commonConstants.secretKey;
+            return secretKey;
         }
     };
 
